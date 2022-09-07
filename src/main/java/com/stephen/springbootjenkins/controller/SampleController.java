@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SampleController {
 
     @GetMapping("/")
-    public String root(){
+    public String defaultMethod(){
         return "App is Up and Running";
     }
 
