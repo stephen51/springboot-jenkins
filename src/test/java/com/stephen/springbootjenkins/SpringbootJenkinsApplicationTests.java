@@ -26,4 +26,10 @@ class SpringbootJenkinsApplicationTests {
 		Assert.assertEquals("Test is Up and Running",sampleController.test());
 	}
 
+	@Test
+	void contextLoadTest2() {
+
+		Assert.assertNotNull(sampleController.test());
+	}
+
 }
